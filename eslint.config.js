@@ -28,7 +28,7 @@ export default tseslint.config(
     name: "my-custom-eslint/recommended-ts",
     files: ["src/**/*.{ts,tsx}"],
     extends: [
-      ...tseslint.configs.recommended,
+      ...tseslint.configs.recommendedTypeChecked,
       eslintPluginImportX.flatConfigs.typescript,
     ],
     languageOptions: {
